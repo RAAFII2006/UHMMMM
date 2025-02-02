@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(239, 140, 224);
+}
+
+.header-text {
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.img-container {
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+  font-family: cursive;
+  color: white;
+  transition: ease-in 3s;
+}
+
+.img-container :hover {
+    transition: ease-in 3s;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
